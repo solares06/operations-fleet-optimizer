@@ -23,10 +23,11 @@ Instead of deploying vehicles randomly, this model introduces a structured, data
 3. **Route Optimization (The Execution):** For each specific zone, the algorithm calculates the most efficient point-to-point path from the central Hub using the Nearest Neighbor logic, plotting the exact route dynamically.
 
 ## 🗺️ Visual Output
+ <img width="755" height="855" alt="map_screenshot" src="https://github.com/user-attachments/assets/41446f94-aeb6-49a3-bb7c-d6b5237f423a" />
 
-![Optimized Routes](link_to_your_image_here.png)
 
 ## 💡 Future Scope
 * Integrate real-time traffic data via Google Maps API.
 * Upgrade from Nearest Neighbor to more advanced meta-heuristics like Genetic Algorithms or Simulated Annealing for even tighter distance optimization.
 * Introduce Time-Window constraints (e.g., "Customer A requires delivery between 2 PM - 4 PM").
+
